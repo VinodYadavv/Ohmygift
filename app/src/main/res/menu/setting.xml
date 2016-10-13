@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_wish_list"
+        android:icon="@drawable/ic_favorite_border_white_24dp"
+        android:orderInCategory="1001"
+        android:title="@string/menu_action_wishlist"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_action_search_24dp"
+        android:orderInCategory="10"
+        android:title="@string/menu_action_search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+
+    <item
+        android:id="@+id/login"
+        android:orderInCategory="100"
+        android:title="@string/login"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/contactUs"
+        android:orderInCategory="100"
+        android:title="@string/contactUs"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/feedback"
+        android:orderInCategory="100"
+        android:title="@string/feedback"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/aboutUs"
+        android:orderInCategory="100"
+        android:title="@string/AboutUs"
+        app:showAsAction="never" />
+</menu>
